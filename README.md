@@ -28,8 +28,8 @@ A simple RESTful API built with **Express.js** and **PostgreSQL** to handle proj
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/project-requests-api.git
-cd project-requests-api
+git clone https://github.com/kangScripter/DexPro-Backend
+cd DexPro-Backend
 ````
 
 ### 2. Install dependencies
