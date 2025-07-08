@@ -44,7 +44,7 @@ app.post('/requests', async (req, res) => {
  
   try {
     const query = `
-      INSERT INTO project_requests (project_type, timeline, budget, features, additional_info, phone, email, notify)
+      INSERT INTO project_requests (project_type, timeline, budget, features, additional_info, phone, email, notify, status)
       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
       RETURNING *;
     `;
